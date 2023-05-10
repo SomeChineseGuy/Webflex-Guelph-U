@@ -2,6 +2,8 @@
 
 ### To Do
 
+z1
+
 - [x] Review primitive types
 - [x] Objects!
 - [x] Passing primitives and objects to functions
