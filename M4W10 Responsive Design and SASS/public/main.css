@@ -1,0 +1,120 @@
+body {
+  background-color: aqua;
+  margin: 0;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+}
+
+#nav .left {
+  width: 20%;
+}
+
+#nav .left .logo {
+  width: 200px;
+}
+
+#nav .right,
+#nav .left {
+  display: flex;
+  align-items: center;
+}
+
+#nav .right h2 {
+  margin: 0px 20px;
+  padding: 10px 20px;
+  background-color: tomato;
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+#nav .right h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 575.98px) {
+  #nav .left .logo {
+    width: 100px;
+  }
+
+  #nav .right h2 {
+    padding: 5px 10px;
+  }
+
+  #nav .right h2 a {
+    font-size: 18px;
+  }
+}
+
+/* Hero header */
+#hero-header{ 
+  width: 100%;
+}
+
+#hero-header .hero-cat {
+  width: 100%;
+}
+
+#hero-header .mobile-cat {
+  display: none;
+}
+
+@media screen and (max-width: 575.98px) {
+  #hero-header .hero-cat {
+    display: none;
+  }
+
+  #hero-header .mobile-cat {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+/* Profile */
+#profile {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 30px;
+  transition: all 1s ease;
+}
+
+#profile .left {
+  width: 50%;
+}
+
+#profile .right {
+  width: 50%;
+}
+
+#profile .profile-pic {
+  width: 300px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767.98px) {
+  #profile {
+    flex-direction: column;
+  }
+
+  #profile .left {
+    width: 100%;
+  }
+  
+  #profile .right {
+    width: 100%;
+  }
+  
+  #profile .profile-pic {
+    width: 100% ;
+  }
+}
+
+
+

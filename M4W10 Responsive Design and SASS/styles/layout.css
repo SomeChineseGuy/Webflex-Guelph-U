@@ -1,0 +1,29 @@
+body {
+  background-color: hotpink;
+  color: tomato;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/* Profile */
+#profile {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 30px;
+  transition: all 1s ease;
+}
+#profile .left {
+  width: 50%;
+}
+#profile .right {
+  width: 50%;
+}
+#profile .profile-pic {
+  width: 300px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=layout.css.map */
