@@ -1,6 +1,6 @@
 CREATE TABLE users (
   id SERIAL PRIMARY KEY, -- serial tells the db to auto increment
-  name VARCHAR 355,
+  name VARCHAR,
   age INTEGER,
   email TEXT
 );
