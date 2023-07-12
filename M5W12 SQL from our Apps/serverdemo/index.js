@@ -42,6 +42,7 @@ app.get('/users', (req, resp) => {
 		.then(res => {
 			console.log(res.rows);
 			templateVars.results = res.rows;
+			// results: [{}]
 			return resp.render('users', templateVars);
 		})
 		.catch(err => {
@@ -52,6 +53,7 @@ app.get('/users', (req, resp) => {
 
 app.get('/users/:id', (req, res) => {
 	const templateVars = {};
+	// localhost::3000/users/11; DROP DATABASE USERS
 	const id = req.params.id;
 	console.log(id);
 	pool.query(`SELECT * FROM users where id = $1`, [id])
