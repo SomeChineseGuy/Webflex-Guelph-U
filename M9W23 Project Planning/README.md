@@ -7,6 +7,7 @@
 - [x] Keeping track of tasks
 - [x] Keeping track of time
 - [x] Staying organized
+- [x] Dev from feature to launch
 
 ### Project Management
 
