@@ -1,0 +1,17 @@
+.counter {
+  font-size: 30px;
+  color: tomato;
+}
+
+.counterContainer {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid tomato;
+  border-radius: 5px;
+}
